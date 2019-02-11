@@ -19,7 +19,7 @@ class LibraryCourse extends Component {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim vulputate nisi. Morbi ut tincidunt risus, eu fringilla libero. Sed eget tincidunt tellus. Suspendisse ut blandit purus.</p>
                 </div>
             </div>
-        )
+        );
     }
 }
 
