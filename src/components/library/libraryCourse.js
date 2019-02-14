@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import * as actions from'../../actions';
 
-import Icon from '../icon';
-import Arrow from '../arrow';
+import Icon from "../icon";
+import Arrow from "../arrow";
 import Action from "../action";
 
 class LibraryCourse extends Component {
@@ -11,9 +11,10 @@ class LibraryCourse extends Component {
         return (
             <div className="library-course">
                 <div className="library-course__title-check">
-                    <label className="library-course_title">{ this.props.title }</label>
+                    <label className="library-course__title">{ this.props.title }</label>
                     { Icon('fas fa-check', 'library-course__icon') }
                 </div>
+                <div className="library-course__line"></div>
                 <Arrow className="library-course__arrow" />
                 <Action 
                     id={this.props.id}
