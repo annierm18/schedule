@@ -15,7 +15,7 @@ class LibraryCourse extends Component {
         this.state = {
             status: true,
             height: 0
-        }
+        };
     }
 
     handleCallback = function(status) {
@@ -29,7 +29,7 @@ class LibraryCourse extends Component {
             status, 
             height 
         });
-    }.bind(this)
+    }.bind(this);
 
     render() {
         this.id = `library-course-${this.props.id}`;
